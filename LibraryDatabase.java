@@ -17,7 +17,7 @@ public class LibraryDatabase {
 		try {
 
 			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Library", "root",
-					"PassWord123!");
+					"PasswordHere");
 			Statement statement = connection.createStatement();
 
 			
